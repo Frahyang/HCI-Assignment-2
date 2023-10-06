@@ -20,7 +20,7 @@ body {
 }
 
 #a {
-    font-size: ;
+    font-size: 20px;
 }
 
 #fieldset {
@@ -60,6 +60,7 @@ label {
     float: left;
     width: 20%;
     text-align: center;
+    font-size: 12px;
 }
 
 #comment {
