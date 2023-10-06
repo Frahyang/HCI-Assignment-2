@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HCI ASSIGNMENT-02</title>
+        <link rel="icon" type="image/x-icon" href="P.png">
+    </head>
+    <body>
+        <main id="main">
+            <section>
+                <h1 id="h1">Personal Info Survey</h1>
+            </section>
+            <section>
+                <form>
+                    <table >
+                        <tr>
+                            
+                            <td colspan="2">
+                            <div id="fieldset">
+                            <fieldset>
+                                <legend>Personal Details</legend>
+                                <div id="info">
+                                    <p id="a">Name</p>
+                                    <input type="text" placeholder="Enter First Name" required>
+                                    <input type="text" placeholder="Enter Last Name" required>
+                                </div>
+                                <div id="info">
+                                    <p id="a">Birthday</p>
+                                    <input type="date" id="birthday" name="birthday" required>
+                                    <input type="text" placeholder="Enter Birth Place"required>
+                                </div>
+                                <div id="info">
+                                    <p id="a">Phone Number</p>
+                                    <input type="text" placeholder="Enter Phone Number" required>
+                                </div>
+                            </fieldset>
+                            </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width=50%>
+                            <div id="favourites">
+                                <fieldset>
+                                    <legend>Videogame</legend>
+                                    <p>On a scale of 1 to 5 how much do you play games?</p>
+                                    <label><input type="radio" id="rating" name="rate">1</label>
+                                    <label><input type="radio" id="rating" name="rate">2</label>
+                                    <label><input type="radio" id="rating" name="rate">3</label>
+                                    <label><input type="radio" id="rating" name="rate">4</label>
+                                    <label><input type="radio" id="rating" name="rate">5</label>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <p>Select the games that you have played:</p>
+                                    <label><input type="checkbox" id="rating" name="rate">Devil May Cry 5</label>
+                                    <label><input type="checkbox" id="rating" name="rate">Genshin Impact</label>
+                                    <label><input type="checkbox" id="rating" name="rate">Mobile Legends</label>
+                                    <label><input type="checkbox" id="rating" name="rate">Clash of Clans</label>
+                                    <label><input type="checkbox" id="rating" name="rate">Subway Surfers</label>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <p>Out of the selected games which one is your favourite? Why is it your favourite? </p>
+                                    <textarea placeholder="Enter text" id="why" required></textarea>
+                                </fieldset>
+                            </div>
+                            </td>
+                            <td>
+                            <div id="favourites">
+                            <fieldset>
+                                <legend>Sports</legend>
+                                <p>On a scale of 1 to 5 how frequent do you exercise?</p>
+                                <label><input type="radio" id="rating" name="rate">1</label>
+                                <label><input type="radio" id="rating" name="rate">2</label>
+                                <label><input type="radio" id="rating" name="rate">3</label>
+                                <label><input type="radio" id="rating" name="rate">4</label>
+                                <label><input type="radio" id="rating" name="rate">5</label>
+                                <br>
+                                <br>
+                                <br>
+                                <p>Select the sports you normally do:</p>
+                                <label><input type="checkbox" id="rating" name="rate">Badminton</label>
+                                <label><input type="checkbox" id="rating" name="rate">Swimming</label>
+                                <label><input type="checkbox" id="rating" name="rate">Jogging</label>
+                                <label><input type="checkbox" id="rating" name="rate">Football</label>
+                                <label><input type="checkbox" id="rating" name="rate">Basketball</label>
+                                <br>
+                                <br>
+                                <br>
+                                <p>Out of the selected choice which one are you best at?</p>
+                                <textarea placeholder="Enter text" id="why" required></textarea>
+                                
+                            </fieldset>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <div id="favourites">
+                                <fieldset>
+                                    <legend>Cuisine</legend>
+                                    <p>On a scale of 1 to 5 how much do you enjoy eating your native cuisine compared to foreign cuisines?</p>
+                                    <label><input type="radio" id="rating" name="rate">1</label>
+                                    <label><input type="radio" id="rating" name="rate">2</label>
+                                    <label><input type="radio" id="rating" name="rate">3</label>
+                                    <label><input type="radio" id="rating" name="rate">4</label>
+                                    <label><input type="radio" id="rating" name="rate">5</label>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <p>Select the cuisines you have ever tasted:</p>
+                                    <label><input type="checkbox" id="rating" name="rate">Chinese</label>
+                                    <label><input type="checkbox" id="rating" name="rate">Indian</label>
+                                    <label><input type="checkbox" id="rating" name="rate">Thai</label>
+                                    <label><input type="checkbox" id="rating" name="rate">Indonesian</label>
+                                    <label><input type="checkbox" id="rating" name="rate">Italian</label>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <p>Out of the selected choice which one are you best at?</p>
+                                    <textarea placeholder="Enter text" id="why" required></textarea>
+                                    
+                                </fieldset>
+                            </div>
+                            </td>
+                            <td>
+                            <div id="favourites">
+                                <fieldset>
+                                    <legend>Submission</legend>
+                                    Save response: <input type="email" placeholder="Enter E-mail">
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <input type="reset">
+                                    <input type="submit">
+                                </fieldset>
+                            </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                            <div id="favourites">
+                                <fieldset>
+                                    <legend>Feedback</legend>
+                                    <textarea placeholder="Give us a feedback of the survey!" id="comment"></textarea>
+                                </fieldset>
+                            </div>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </section>
+        </main>
+        <footer>
+            Powered by Fadhillah
+        </footer>
+    </body>
+</html>
